@@ -21,10 +21,3 @@ urlpatterns = [
     url(r'^api/', include('conduit.apps.authentication.urls', namespace='authentication')),
     url(r'^api/', include('conduit.apps.profiles.urls', namespace='profiles')),
 ]
-"""
-
-2345
-
-1345
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZXhwIjoxNTA4NDMxNjg0fQ.iu2euVDwDW-Tb9a1AP5stCmOcxK5BTLyW6i39Rn1bYI
-"""

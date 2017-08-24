@@ -48,8 +48,9 @@ class Profile(TimestampedModel):
 
     height = models.PositiveIntegerField(null=True)
 
-    NORMAL, ATHLETIC, OVERWEIGHT = 'Normale', 'Sportif/ve', 'En surpoids'
+    SLIM, NORMAL, ATHLETIC, OVERWEIGHT = 'Mince', 'Normale', 'Sportif/ve', 'En surpoids'
     SILHOUETTE_CHOICE = (
+        (SLIM, 'Mince'),
         (NORMAL, 'Normale'),
         (ATHLETIC, 'Sportif/ve'),
         (OVERWEIGHT, 'En surpoids')
